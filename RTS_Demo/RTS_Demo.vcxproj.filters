@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GameProcess">
+      <UniqueIdentifier>{b237731f-fa0a-4e63-81af-b321f8c9bc98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit">
+      <UniqueIdentifier>{952fa7ca-facc-4b9d-9953-3c98ad01c6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Point">
+      <UniqueIdentifier>{c79c49a2-5bae-409d-a455-dd0e0fc8ccb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Manager">
+      <UniqueIdentifier>{48beb64b-5bb6-48f9-ba9d-50e55479e15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Human">
+      <UniqueIdentifier>{880ed028-d943-467c-a03c-9fc5a09cad86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Unit\Alien">
+      <UniqueIdentifier>{9e27ff66-3512-44d6-802d-db74e79cdbdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>소스 파일\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitBase.h">
+      <Filter>소스 파일\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitDefine.h">
+      <Filter>소스 파일\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPoint.h">
+      <Filter>소스 파일\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitManager.h">
+      <Filter>소스 파일\Unit\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranger.h">
+      <Filter>소스 파일\Unit\Human</Filter>
+    </ClInclude>
+    <ClInclude Include="Sectoid.h">
+      <Filter>소스 파일\Unit\Alien</Filter>
+    </ClInclude>
+    <ClInclude Include="Sharpshooter.h">
+      <Filter>소스 파일\Unit\Human</Filter>
+    </ClInclude>
+    <ClInclude Include="Viper.h">
+      <Filter>소스 파일\Unit\Alien</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>소스 파일\Unit\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RTS_Demo.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>소스 파일\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitBase.cpp">
+      <Filter>소스 파일\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomPoint.cpp">
+      <Filter>소스 파일\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitManager.cpp">
+      <Filter>소스 파일\Unit\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranger.cpp">
+      <Filter>소스 파일\Unit\Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Sectoid.cpp">
+      <Filter>소스 파일\Unit\Alien</Filter>
+    </ClCompile>
+    <ClCompile Include="Sharpshooter.cpp">
+      <Filter>소스 파일\Unit\Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Viper.cpp">
+      <Filter>소스 파일\Unit\Alien</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\Unit\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RTS_Demo.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="RTS_Demo.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
